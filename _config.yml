@@ -1,0 +1,28 @@
+# Site settings
+title: Blog Something
+email: yoyocyz@gmail.com
+baseurl: ""
+url: "http://chenxiaoyoyo.github.io/"
+
+author:
+  name     : 'chenxiaoyoyo'
+  email    : yoyocyz@gmail.com
+  url      : http://chenxiaoyoyo.github.io/
+
+github: https://github.com/chenxiaoyoyo
+disqus_shortname: "chenxiaoyoyo"
+google_analytics: UA-52446115-1
+
+gems: [jekyll-paginate]
+
+paginate: 4
+comments: true
+paginate_path: "/page/:num"
+
+sass:
+  style: :compressed
+  sass_dir: _sass
+
+# Build settings
+markdown  : kramdown
+permalink : /:title/
