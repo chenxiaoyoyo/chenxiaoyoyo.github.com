@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "ArcGIS Engine VC++中 IActiveView刷新方式"
-date:   2016-01-21
+date:   2010-11-02
 categories: ArcGIS Engine VC++
 description: ArcGIS Engine VC++ IActiveView刷新方式
 ---
