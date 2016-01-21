@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Gradle--多渠道依赖问题"
-date:   2016-01-21 11:00:00
-categories: jekyll update
-comments: true
+date:   2016-01-21
+categories: gradle build
+description: gradle多渠道打包相关依赖的一些问题
 ---
 ##前提
 如果我们想用Gradle打出多渠道的包，需要在build.gradle脚本中加入代码：
