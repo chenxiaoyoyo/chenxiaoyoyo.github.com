@@ -8,7 +8,7 @@ description: ArcGIS Engine在VC++中的应用之--鼠标拖拽
 
 这是小时候博客里的迁移，可以不看~~
 
-```c++
+```C++
 IPointPtr pPnt(CLSID_Point);
 pPnt->PutCoords(mapX,mapY);
 
