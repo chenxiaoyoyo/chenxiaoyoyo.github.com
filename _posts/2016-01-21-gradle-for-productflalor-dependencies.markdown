@@ -90,7 +90,7 @@ dependencies {
 
 ```groovy
 android {
-    defaultPublishConfig　"devRelease"
+    defaultPublishConfig "devRelease"
 }
 ```
 
