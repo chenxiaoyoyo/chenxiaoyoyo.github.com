@@ -2,8 +2,8 @@
 layout: post
 title:  "ArcGIS Engine VC++ IActiveView刷新方式"
 date:   2016-01-21
-categories: gradle build
-description: gradle多渠道打包相关依赖的一些问题
+categories: ArcGIS Engine VC++
+description: ArcGIS Engine VC++ IActiveView刷新方式
 ---
 
 这是小时候博客里的迁移，可以不看~~
