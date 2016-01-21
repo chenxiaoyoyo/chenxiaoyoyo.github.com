@@ -24,8 +24,17 @@ sass:
   sass_dir: _sass
 
 # Build settings
-markdown  : kramdown
+# ---------------- # 
+#      Jekyll      # 
+# ---------------- # 
+markdown: redcarpet
+redcarpet: 
+    extensions: 
+        - no_intra_emphasis
+        - fenced_code_blocks
+        - autolink
+        - tables
+        - with_toc_data
+        - strikethrough
 permalink : /:title/
 
-kramdown:
-   input: GFM
