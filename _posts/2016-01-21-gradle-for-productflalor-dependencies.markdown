@@ -42,7 +42,7 @@ dependencies {
 }
 ```
 
-以上，pro渠道包依赖lib, dev渠道包依赖libnew，注意大小写，如是渠道依赖，为flavorCompile，如果是普通依赖，为compile
+以上，pro渠道包依赖lib, dev渠道包依赖libnew，**注意大小写，如是渠道依赖，为flavorCompile，如果是普通依赖，为compile**.
 
 ## 情景二
 
