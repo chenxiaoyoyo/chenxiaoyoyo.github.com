@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "test for yoyo!"
-date:   2015-08-08 03:00:08
+title:  "Gradle--多渠道依赖问题"
+date:   2016-01-21 11:00:00
 categories: jekyll update
 comments: true
 ---
