@@ -18,7 +18,11 @@ Cannot resolve symbol 'IService'
 
 在工程的Module目录下的src/main下新建一个aidl文件夹（只建这个编译是不能通过的），并且在新建aidl文件夹下添加和AndroidManifest中相同包名的package，在这个package下面添加aidl文件。例如添加前的文件目录结构为：
 
+![](/images/posts/android/android-studio-config1.png)
 
+添加完成后的文件目录结构为：
+
+![](/images/posts/android/android-studio-config2.png)
 
 ###解决方法二:
 
