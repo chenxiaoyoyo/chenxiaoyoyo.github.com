@@ -24,6 +24,10 @@ Cannot resolve symbol 'IService'
 
 ![](/images/posts/android/android-studio-config2.png)
 
+重新编译之后，就可以在app/build/generated/source/aidl/debug/下生成了相应的.java文件:
+
+![](/images/posts/android/android-studio-config3.png)
+
 ###解决方法二:
 
 
