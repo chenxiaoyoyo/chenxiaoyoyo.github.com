@@ -30,7 +30,8 @@ Cannot resolve symbol 'IService'
 
 ###解决方法二:
 
-如果你觉得层层创建目录很麻烦，则可以使用下面的方法。即将aidl文件放到你理想的路径下，如Module的根目录src/main/java下:
+如果你觉得层层创建目录很麻烦，则可以使用下面的方法。
+将aidl文件放到你需要放置的路径下，如Module的package根目录src/main/java/package下:
 
 ![](/images/posts/android/android-studio-config4.png)
 
@@ -50,4 +51,16 @@ android {
     }
 }
 ```
+
+重新编译之后，就可以在app/build/generated/source/aidl/debug/下的package下面生成了相应的.java文件:
+
+![](/images/posts/android/android-studio-config3.png)
+
+注：使用上面的gradle配置脚本 **aidl.srcDirs = ['src/main/java']** 的时候，如果不放在pakeage的根目录下，也没有问题，放在任何你需要放置的地方：
+
+![](/images/posts/android/android-studio-config5.png)
+
+编译完成后，依然会在相应的build目录下面生成.java文件：
+
+![](/images/posts/android/android-studio-config6.png)
 
