@@ -10,9 +10,7 @@ description: C/C++应用之--Format函数用法
 
 ##函数声明
 
-```c++
 function Format(const Format: string; const Args: array of const): string; overload;
-```
 
 ##函数功能
 
