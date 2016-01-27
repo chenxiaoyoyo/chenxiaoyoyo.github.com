@@ -16,11 +16,11 @@ function Format(const Format: string; const Args: array of const): string; overl
 
 ##函数功能
 
-  事实上Format方法有两个种形式，另外一种是三个参数的，主要区别在于它是线程安全的， 但并不多用，所以这里只对第一个介绍。Format参数是一个格式字符串，用于格式化Args里面的值的。Args是一个变体数组，即它里面可以有多个参数，而且每个参数可以不同。 例如：
+事实上Format方法有两个种形式，另外一种是三个参数的，主要区别在于它是线程安全的， 但并不多用，所以这里只对第一个介绍。Format参数是一个格式字符串，用于格式化Args里面的值的。Args是一个变体数组，即它里面可以有多个参数，而且每个参数可以不同。 例如：
   
-  **Format("my name is %6s","wind");**
+**Format("my name is %6s","wind");**
   
-  返回的是：my name is wind
+返回的是：my name is wind
 
 ##函数参数
 
